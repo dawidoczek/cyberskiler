@@ -312,3 +312,276 @@ for i in range(4):
 </details>
     </ul>
 </details>
+<details>
+    <summary>Instrukcje warunkowe</summary>
+    <ul>
+      <details>
+      <summary>1. Porównanie liczby:</summary>
+      
+```python
+      a = int(input())
+      print("Number is less than twenty" if a < 20 else "")
+```
+</details>
+      <details>
+      <summary>2. Porównanie liczby II:</summary>
+      
+```python
+      print("Number is greater than or equal to twenty" if int(input()) >= 20 else "Number is less than twenty")
+```
+</details>
+      <details>
+      <summary>3. Porównanie liczby III:</summary>
+      
+```python
+      a = int(input())
+      print("Number is greater than twenty" if a > 20 else "Number is equal to twenty" if a == 20 else "Number is less than twenty")
+```
+</details>
+      <details>
+      <summary>4. Test pełnoletności:</summary>
+      
+```python
+      a = input()
+      b = input()
+      c = int(input())
+      print(f"Hi {a} {b}, you are {'of legal age' if c >= 18 else 'underage'}")
+```
+</details>
+      <details>
+      <summary>5. Dzień tygodnia:</summary>
+      
+```python
+      a = int(input())
+      b = {
+          1: "Monday",
+          2: "Tuesday",
+          3: "Wednesday",
+          4: "Thursday",
+          5: "Friday",
+          6: "Saturday",
+          7: "Sunday"
+      }
+      print(b.get(a))
+```
+</details>
+      <details>
+      <summary>6. Weryfikacja loginu:</summary>
+      
+```python
+      def isupperall(a):
+          b = "a"
+          for i in a:
+              if i.isupper():
+                  return True
+          return False
+      a = input()
+      if a == 'Admin':
+          print("Login correct")
+      elif isupperall(a):
+```
+</details>
+    </ul>
+</details>
+  <details>
+    <summary>Pętla</summary>
+    <ul>
+      <details>
+      <summary>1. Pierwsza pętla for:</summary>
+      
+```python
+      for i in range(10):
+          print(i)
+```
+</details>
+      <details>
+      <summary>2. Własna pętla:</summary>
+      
+```python
+      for i in range(1, 11):
+          print(i)
+```
+</details>
+      <details>
+      <summary>3. Trójkąt:</summary>
+      
+```python
+      a = int(input())
+      for i in range(a):
+          print("*" * (i + 1))
+```
+</details>
+      <details>
+      <summary>4. Ładniejszy trójkąt:</summary>
+      
+```python
+      n = int(input())
+      for i in range(1, n + 1):
+          print(" " * (n - i) + "*" * (2 * i - 1))
+```
+</details>
+      <details>
+      <summary>5. Odwrotna funkcja range():</summary>
+      
+```python
+      n = -3
+      for i in range(20, 1, n):
+          print(i)
+```
+</details>
+      <details>
+      <summary>6. Romb:</summary>
+      
+```python
+      n = int(input())
+      for i in range(1, n + 1):
+          print(" " * (n - i) + "*" * (2 * i - 1))
+      for i in range(n - 1, 0, -1):
+          print(" " * (n - i) + "*" * (2 * i - 1))
+```
+</details>
+      <details>
+      <summary>7. Ciąg liczb:</summary>
+      
+```python
+      # Insert your code here
+      [print(i, end=" ") for i in range(1, 101)]
+```
+</details>
+      <details>
+      <summary>8. Pętla w pętli:</summary>
+      
+```python
+      n = 10
+      for i in range(1, n + 1):
+          for j in range(1, n + 1):
+              print(i * j, end="\t")
+          print()
+```
+</details>
+      <details>
+      <summary>9. Pętla while:</summary>
+      
+```python
+      a = 0
+      # Insert your code here
+      while a != 11:
+          print(a)
+          a += 1
+```
+</details>
+      <details>
+      <summary>10. Pętla while II:</summary>
+      
+```python
+      a = 10
+      while a > 0:
+          print(a)
+          a = a - 1
+```
+</details>
+      <details>
+      <summary>11. Lista potęg:</summary>
+      
+```python
+      a = int(input())
+      for i in range(1, 11):
+          print(a ** i)
+```
+</details>
+      <details>
+      <summary>12. Pętla while z warunkiem opuszczenia:</summary>
+      
+```python
+      condition = True
+      # Insert your code here
+      a = ""
+      while True:
+          a = input()
+          if a == "end":
+              break
+          else:
+              print(a)
+```
+</details>
+      <details>
+      <summary>13. Lista dzielników:</summary>
+      
+```python
+      a = int(input())
+      for i in range(1, a + 1):
+          if a % i == 0:
+              print(i)
+```
+</details>
+      <details>
+      <summary>14. Alfabet:</summary>
+      
+```python
+      print("a A b B c C d D e E f F g G h H i I j J k K l L m M n N o O p P q Q r R s S t T u U v V w W x X y Y z Z")
+```
+</details>
+      <details>
+      <summary>15. Alfabet ze skokiem:</summary>
+      
+```python
+      a = "abcdefghijklmnopqrstuvwxyz"
+      n = int(input())
+      for i in range(0, len(a), n):
+          print(a[i], a[i].upper(), end=" ")
+```
+</details>
+      <details>
+      <summary>16. Nieskończone wczytywanie:</summary>
+      
+```python
+      while True:
+          num = input()
+          if num == 'end':
+              break
+          num = int(num)
+          if num % 2 == 0:
+              print("even")
+          else:
+              print("odd")
+```
+</details>
+      <details>
+      <summary>17. Lista słów i długości:</summary>
+      
+```python
+      text = input()
+      word_length_tuples = [(word, len(word)) for word in text.split()]
+      print(word_length_tuples)
+```
+</details>
+      <details>
+      <summary>18. Ciąg Fibonacciego:</summary>
+      
+```python
+      def fibonacci(n):
+          fib_sequence = [0, 1]
+          [fib_sequence.append(fib_sequence[-2] + fib_sequence[-1]) for _ in range(2, n)]
+          return fib_sequence[:n]
+      n = int(input())
+      if n < 0:
+          print("Integer must be non-negative.")
+      else:
+          fib_list = fibonacci(n)
+      print(fib_list)
+```
+</details>
+      <details>
+      <summary>19. Konwersja liczby dziesiętnej na binarną:</summary>
+      
+```python
+      decimal_number = int(input())
+      binary_representation = bin(decimal_number)[2:]
+      binary_digits = [int(bit) for bit in binary_representation]
+      for bit in reversed(binary_digits):
+          print(bit)
+```
+</details>
+    </ul>
+</details>
+  
