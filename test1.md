@@ -9,7 +9,7 @@ def greetings():
 
 if __name__ == "__main__":
     greetings()
-```
+    ```
 </details>
 <details>
 <summary>2. Ciąg Fibonacciego:</summary>
@@ -23,7 +23,7 @@ def print_fibonacci_sequence(n):
 if __name__ == "__main__":
     n = int(input())
     print_fibonacci_sequence(n)
-```
+    ```
 </details>
 <details>
 <summary>3. Funkcja sumująca liczby:</summary>
@@ -35,7 +35,7 @@ if __name__ == "__main__":
     x = int(input())
     y = int(input())
     sum(x, y)
-```
+    ```
 </details>
 <details>
 <summary>4. Funkcja zwracająca sumę:</summary>
@@ -48,7 +48,7 @@ if __name__ == "__main__":
     y = int(input())
     result = sum(x, y)
     print("The result is", result)
-```
+    ```
 </details>
 <details>
 <summary>5. Funkcja konwertująca temperaturę:</summary>
@@ -67,7 +67,7 @@ if __name__ == "__main__":
     temperature = float(input())
     unit = input().strip().upper()
     convert_temperature(temperature, unit)
-```
+    ```
 </details>
 <details>
 <summary>6. Funkcja sprawdzająca rok przestępny:</summary>
@@ -84,7 +84,7 @@ if __name__ == "__main__":
         print("It is a leap year")
     else:
         print("It is not a leap year")
-```
+    ```
 </details>
 <details>
 <summary>7. Funkcja zwracająca największą wartość z listy:</summary>
@@ -99,7 +99,7 @@ if __name__ == "__main__":
         numbers.append(num)
     max_number = find_max(numbers)
     print("The largest number is:", max_number)
-```
+    ```
 </details>
 <details>
 <summary>8. Funkcja rekurencyjna:</summary>
@@ -115,7 +115,7 @@ if __name__ == "__main__":
     n = int(input())
     result = power(x, n)
     print(result)
-```
+    ```
 </details>
 <details>
 <summary>9. Funkcja obliczająca silnię:</summary>
@@ -130,7 +130,7 @@ if __name__ == "__main__":
     n = int(input())
     result = factorial(n)
     print(result)
-```
+    ```
 </details>
 <details>
 <summary>10. Funkcja filtrująca:</summary>
@@ -152,7 +152,7 @@ if __name__ == '__main__':
     passing_elements = test_elements(elements, test_even)
 
     print(passing_elements)
-```
+    ```
 </details>
 </ul>
 </details>
@@ -181,7 +181,7 @@ while extra_number in numbers:
 
 print(len(numbers))
 print(numbers)
-```
+    ```
 </details>
 <details>
 <summary>2. Tabliczka mnożenia:</summary>
@@ -190,7 +190,7 @@ N = int(input())
 multiplication_table = [[(i + 1) * (j + 1) for j in range(N)] for i in range(N)]
 for row in multiplication_table:
     print(row)
-```
+    ```
 </details>
 <details>
 <summary>3. Nieskończona lista:</summary>
@@ -227,7 +227,7 @@ while minimumCounter:
     minimumCounter -= 1
 
 print(tab)
-```
+    ```
 </details>
 <details>
 <summary>4. Lista punktów kontrolnych:</summary>
@@ -254,7 +254,7 @@ def main():
 
 if __name__ == "__main__":
     main()
-```
+    ```
 </details>
 <details>
 <summary>5. Sortowanie tablicy:</summary>
@@ -275,7 +275,7 @@ def main():
 
 if __name__ == "__main__":
     main()
-```
+    ```
 </details>
 </ul>
 </details>
@@ -294,7 +294,7 @@ class MyClass:
 if __name__ == '__main__':
     myObject = MyClass()
     myObject.welcome()
-```
+    ```
 </details>
 <details>
 <summary>2. Prosta klasa I:</summary>
@@ -309,7 +309,7 @@ class Dog:
 if __name__ == '__main__':
     my_dog = Dog("Buddy")
     my_dog.bark()
-```
+    ```
 </details>
 <details>
 <summary>3. Prosta klasa II:</summary>
@@ -325,7 +325,7 @@ class Person:
 if __name__ == '__main__':
     name = input()
     age = int(input())
-```
+    ```
 </details>
 <details>
 <summary>4. Klasa dla liczby binarnej:</summary>
@@ -342,7 +342,7 @@ if __name__ == '__main__':
     decimal = int(input())
     binary_number = BinaryNumber(decimal)
     binary_number.show()
-```
+    ```
 </details>
 <details>
 <summary>5. Klasa Employee:</summary>
@@ -371,7 +371,7 @@ if __name__ == '__main__':
     employee.display_info()
     employee.give_raise(raise_amount)
     employee.display_info()
-```
+    ```
 </details>
 <details>
 <summary>6. Punkty na płaszczyźnie 2D i w przestrzeni 3D:</summary>
@@ -401,7 +401,7 @@ if __name__ == "__main__":
     print(p3.dist(p4))
     print(isinstance(p3, Point3D))  # False
     print(isinstance(p3, Point2D))  # True
-```
+    ```
 </details>
 <details>
 <summary>7. Dziedziczenie I:</summary>
@@ -430,7 +430,7 @@ if __name__ == "__main__":
     num_legs = int(input())
     my_mammal = Mammal(name, age, species, num_legs)
     my_mammal.display_info()
-```
+    ```
 </details>
 <details>
 <summary>8. Dziedziczenie II:</summary>
@@ -463,7 +463,7 @@ if __name__ == "__main__":
     num_legs = int(input())
     my_mammal = Mammal(name, age, species, num_legs)
     my_mammal.display_info()
-```
+    ```
 </details>
 <details>
 <summary>9. Lista obiektów:</summary>
@@ -505,7 +505,7 @@ if __name__ == "__main__":
     title = input()
 
     library.find_book(title)
-```
+    ```
 </details>
 <details>
 <summary>10. Bankowość internetowa:</summary>
@@ -542,7 +542,7 @@ if __name__ == '__main__':
     account.withdrawal(w3)
 
     print(account.showBalance())
-```
+    ```
 </details>
 </ul>
 </details>
@@ -562,7 +562,7 @@ if __name__ == "__main__":
     n = int(input())
     powers_dict = generate_powers_of_two_dict(n)
     print(powers_dict)
-```
+    ```
 </details>
 
 <details>
@@ -583,7 +583,7 @@ if __name__ == '__main__':
 k2: W2
 k3: w3""")
     print(d)
-```
+    ```
 </details>
 
 <details>
@@ -603,7 +603,7 @@ while n:
     n -= 1
 for key in sorted(words):
     print(key, words[key])
-```
+    ```
 </details>
 
 <details>
@@ -630,7 +630,7 @@ def sort_numbers(numbers):
 if __name__ == "__main__":
     numbers = [-12, 1, 11, 5, -6]
     print(sort_numbers(numbers))
-```
+    ```
 </details>
 
 <details>
@@ -652,7 +652,7 @@ if __name__ == "__main__":
     for _ in range(n):
         lists.append(list(map(int, input().split())))
     print(position_of_element_in_list(lists, x))
-```
+    ```
 </details>
 
 <details>
@@ -681,7 +681,7 @@ if __name__ == "__main__":
     for _ in range(n):
         operation = int(input())
         manage_dictionary(dct, operation)
-```
+    ```
 </details>
 </ul>
 </details>
@@ -699,7 +699,7 @@ for line in text:
     if pat in line:
         elems.append(line.strip())
 print(elems)
-```
+    ```
 </details>
 
 <details>
@@ -709,7 +709,7 @@ n = int(input())
 while n:
     print(''.join(filter(lambda x: x.isalpha() or x.isspace(), input().lower())))
     n -= 1
-```
+    ```
 </details>
 
 <details>
@@ -721,7 +721,7 @@ for _ in range(n):
     text += input().strip() + " "
 formatted_text = [text[i:i+x] for i in range(0, len(text), x)]
 print("\n".join(formatted_text))
-```
+    ```
 </details>
 
 <details>
@@ -735,7 +735,7 @@ while n:
     for mac in re.findall(p, text):
         print(mac)
     n -= 1
-```
+    ```
 </details>
 
 <details>
@@ -758,7 +758,7 @@ while n:
     n -= 1
     data = input()
     print(validate(data))
-```
+    ```
 </details>
 
 <details>
@@ -780,7 +780,7 @@ for char in text:
     encrypted_text += encrypted_char
 
 print(encrypted_text)
-```
+    ```
 </details>
 </ul>
 </details>
