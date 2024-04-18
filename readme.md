@@ -1,13 +1,13 @@
 <details>
   <summary>Podstawy pracy w środowisku Python oraz typy danych w języku Python</summary>
-  <ul>
     <details>
     <summary>1. Pierwszy program:</summary>
     
     ```python
     print("my first program")
     ```
-    </details>
+
+</details>
     <details>
     <summary>2. Pierwsza zmienna:</summary>
     
@@ -151,5 +151,5 @@
     # AADASDASDJHASKDJHAKJSDHAKJSDHKJASHDKJASHdJASDH#asdadsasda = 6#sadadsadsb = 2#sdadsasdadsdasprint(a % b == 0)
     ```
     </details>
-  </ul>
+
 </details>
