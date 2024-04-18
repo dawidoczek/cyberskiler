@@ -23,7 +23,7 @@ driver.find_element(By.XPATH,"//button[@type='submit']").click()
 
 time.sleep(3)
 input_bodies = driver.find_elements(By.CLASS_NAME, "hprimarydark")
-input_bodies[0].click()
+input_bodies[1].click()
 time.sleep(3)
 tematy = driver.find_elements(By.CLASS_NAME, "topic-title")
 x = 0
