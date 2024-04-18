@@ -15,7 +15,7 @@
     data = "my first program"
     print(data)
     ```
-    </details>
+</details>
     <details>
     <summary>3. Wyświetlanie zmiennych:</summary>
     
