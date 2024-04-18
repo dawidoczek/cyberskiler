@@ -1,5 +1,6 @@
 <details>
 <summary>Podstawy pracy w środowisku Python oraz typy danych w języku Python</summary>
+<ul>
 <details>
 <summary>1. Pierwszy program:</summary>
 
@@ -166,7 +167,7 @@ print(a % b == 0)
 
 
 </details>
-
+</ul>
 <details>
 <summary>Operator porównania, operator logiczny i komentarze</summary>
 <ul>
