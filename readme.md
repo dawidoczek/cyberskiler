@@ -3,33 +3,33 @@
     <details>
     <summary>1. Pierwszy program:</summary>
     
-    ```python
-    print("my first program")
-    ```
+```python
+print("my first program")
+```
 
 </details>
     <details>
     <summary>2. Pierwsza zmienna:</summary>
     
-    ```python
-    data = "my first program"
-    print(data)
-    ```
+```python
+data = "my first program"
+print(data)
+```
 </details>
     <details>
     <summary>3. Wyświetlanie zmiennych:</summary>
     
-    ```python
-    number = 12
-    pi = 3.14
-    date = "August 12th 2011"
-    condition = True
-    print(number)
-    print(pi)
-    print(date)
-    print(condition)
-    ```
-    </details>
+```python
+number = 12
+pi = 3.14
+date = "August 12th 2011"
+condition = True
+print(number)
+print(pi)
+print(date)
+print(condition)
+```
+</details>
     <details>
     <summary>4. Wyświetlanie zmiennych II:</summary>
     
