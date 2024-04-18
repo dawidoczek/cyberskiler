@@ -389,10 +389,19 @@ def isupperall(a):
         if i.isupper():
             return True
     return False
+
+
 a = input()
 if a == 'Admin':
     print("Login correct")
 elif isupperall(a):
+    print("Login incorrect")
+else:
+    if len(a)>5:
+        print("Login correct")
+    else:
+        print("Login incorrect")
+
 ```
 </details>
 </ul>
