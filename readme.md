@@ -160,6 +160,13 @@ for i in range(4):
 
 
 
+   
+
+
+
+
+</details>
+
 <details>
     <summary>Operator porównania, operator logiczny i komentarze</summary>
     <ul>
@@ -304,10 +311,4 @@ for i in range(4):
 ```
 </details>
     </ul>
-</details>
-   
-
-
-
-
 </details>
