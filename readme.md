@@ -691,6 +691,28 @@ for bit in reversed(binary_digits):
     print(bit)
 ```
 </details>
+<details>
+<summary>19. Test sprawdzający:</summary>
+      
+## 1.Oceń prawdziwość zdania: Pętla for pozwala na określenie liczby powtórzeń.
+> Prawda
+## 2.Które z poniższych słów kluczowych pozwala na przerwanie pętli?
+> `break`
+## 3.Która z poniższych instrukcji pozwala na powtarzanie wykonywanych czynności w przypadku, gdy nie znamy liczby powtórzeń?
+> while
+## 4.Jaki będzie wynik wywołania bloku instrukcji z załączonego obrazka? 
+> `0 1 2 3 4 5`
+## 5.Czym jest iteracja? 
+> Iteracja to czynność powtarzania tej samej instrukcji w pętli.
+## 6.Oceń prawdziwość zdania: Pętla while nie może przyjmować w warunku zmiennej typu str. 
+> Fałsz
+## 7.Oceń prawdziwość zdania: Gdy znamy liczbę obrotów pętli możemy zamiennie korzystać z obu rodzajów pętli: for i while.
+> Prawda
+## 8.Jaki będzie wynik wywołania bloku instrukcji z załączonego obrazka?
+> `4 5 6 7 8`
+## 9.Która z odpowiedzi poprawnie opisuje działanie bloku instrukcji zawartego na obrazku? 
+> Pętla while jest pętlą nieskończoną.
+</details>
 </ul>
 </details>
 
