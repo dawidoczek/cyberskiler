@@ -375,11 +375,11 @@ print(a == b)
 > `randrange`
 ## 2.Jakiego typu zmienną wczytujemy wykonując instrukcję pokazaną na obrazku? 
 > `int`
-3.Która z poniższych funkcji służy do pobierania danych wprowadzonych z klawiatury? 
+## 3.Która z poniższych funkcji służy do pobierania danych wprowadzonych z klawiatury? 
 > `input()`
 ## 4.celu załadowania udostępnionego modułu random posłużymy się słowem kluczowym: 
 > `import`
-5.Która z poniższych metod modułu random służy do generowania liczb rzeczywistych? 
+## 5.Która z poniższych metod modułu random służy do generowania liczb rzeczywistych? 
 > `random`
 ## 6.Jaki będzie wynik wykonania bloku instrukcji zawartych w poniższym rysunku? 
 > `liczba rzeczywista z przedziału <5;6)`
