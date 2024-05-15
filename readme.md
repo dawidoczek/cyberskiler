@@ -467,6 +467,7 @@ else:
 </details>
 <details>
 <summary>7. Test sprawdzający:</summary>
+      
 ## 1.Jaki będzie wynik wywołania bloku instrukcji załączonego na obrazku?
 > `Else`
 ## 2.W celu zapisania do zmiennej napisowej s wyniku wywołania na niej metody capitalize() należy skorzystać z instrukcji:
