@@ -465,6 +465,30 @@ else:
 
 ```
 </details>
+<details>
+<summary>7. Test sprawdzający:</summary>
+## 1.Jaki będzie wynik wywołania bloku instrukcji załączonego na obrazku?
+> `Else`
+## 2.W celu zapisania do zmiennej napisowej s wyniku wywołania na niej metody capitalize() należy skorzystać z instrukcji:
+> `s = s.capitalize()`
+## 3.Jaki będzie wynik wywołania bloku instrukcji załączonego na poniższym rysunku? 
+> `Hello`
+## 4.Jaki będzie wynik wywołania bloku instrukcji załączonego na poniższym rysunku? 
+> `False`
+## 5.Metoda split(separator) wymaga wywołania z podaniem argumentu oznaczającego separator. Czy to prawda, że separator może być dowolnym znakiem? 
+> Prawda
+## 6.Jakie słowo kluczowe należy wykorzystać, aby instrukcja if mogła wykonać inne instrukcje w przypadku, gdy warunek jest fałszywy?
+> `else`
+## 7.W celu wyodrębnienia bloku instrukcji warunkowej:
+> poprzedzamy każdą instrukcję bloku wcięciem.
+## 8.Wybierz poprawną składnię instrukcji warunkowej:
+>if warunek:
+## 9.Co zostanie wyświetlone po wykonaniu instrukcji zawartych na obrazku? 
+> "ELSE"
+## 10.W jakim celu stosujemy słowo kluczowe "elif" w waunkach if? 
+> To słowo kluczowe jest zagnieżdzeniem kolejnego warunku if.
+</details>
+
 </ul>
 </details>
 <details>
