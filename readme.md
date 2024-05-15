@@ -174,11 +174,11 @@ print(a % b == 0)
 <details>
 <summary>16. Test sprawdzający</summary>
 
-## 1.Która z poniższych odpowiedzi najlepiej opisuje poprawne zasady nazywania zmiennych? 
+> ## 1.Która z poniższych odpowiedzi najlepiej opisuje poprawne zasady nazywania zmiennych? 
 Nazwa powinna zaczynać się od litery i nie może być taka sama jak słowo kluczowe.
-## 2.Która z poniższych odpowiedzi nie jest typem zmiennej w języku Python?
+> ## 2.Która z poniższych odpowiedzi nie jest typem zmiennej w języku Python?
 unsigned
-## 3.Każda zmienna w języku Python jest: 
+> ## 3.Każda zmienna w języku Python jest: 
 obiektem
 ## 4.Który z poniższych operatorów może służyć do łączenia tekstu? 
 > `+`
