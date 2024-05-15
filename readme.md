@@ -196,6 +196,7 @@ print(a % b == 0)
 > "Halo Halo Halo"
 
 
+
 </details>
 </details>
 </ul>
@@ -366,6 +367,23 @@ b = int(input())
 a = random.randint(c, d)
 print(a == b)
 ```
+</details>
+<details>
+<summary>7. Test sprawdzający</summary>
+      
+## 1.Która z poniższych metod modułu random służy do generowania liczb całkowitych? 
+> `randrange`
+## 2.Jakiego typu zmienną wczytujemy wykonując instrukcję pokazaną na obrazku? 
+> `int`
+3.Która z poniższych funkcji służy do pobierania danych wprowadzonych z klawiatury? 
+> `input()`
+## 4.celu załadowania udostępnionego modułu random posłużymy się słowem kluczowym: 
+> `import`
+5.Która z poniższych metod modułu random służy do generowania liczb rzeczywistych? 
+> `random`
+## 6.Jaki będzie wynik wykonania bloku instrukcji zawartych w poniższym rysunku? 
+> `liczba rzeczywista z przedziału <5;6)`
+
 </details>
 </ul>
 </details>
