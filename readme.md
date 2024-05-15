@@ -289,6 +289,7 @@ print("Liczba " + str(number) + " jest " + ("parzysta." if number % 2 == 0 else 
 > `or`
 ## 5.Do czego służy operator porównania: "<="? 
 > Do sprawdzenia, czy wartość przed operatorem jest mniejsza lub równa względem wartości za operatorem.
+
 > Do sprawdzenia, czy wartość za operatorem jest większa lub równa względem wartości przed operatorem.
 ## 6.Który z poniższych to operator potęgowania?
 > `**`
