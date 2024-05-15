@@ -276,6 +276,30 @@ number = 13
 print("Liczba " + str(number) + " jest " + ("parzysta." if number % 2 == 0 else "nieparzysta."))
 ```
 </details>
+<details>
+<summary>8. Test sprawdzający</summary>
+
+## 1.Która z poniższych odpowiedzi będzie wynikiem wykonania bloku instrukcji przedstawionego na obrazku?
+> 6
+## 2.Jaką operacje wykonuje operator "%"? 
+> Zwraca wartość reszty z dzielenia.
+## 3.Który z poniższych to operator przypisania? 
+> `=`
+## 4.Jakie jest słowo kluczowe operatora logicznego alternatywy? 
+> `or`
+## 5.Do czego służy operator porównania: "<="? 
+> Do sprawdzenia, czy wartość przed operatorem jest mniejsza lub równa względem wartości za operatorem.
+> Do sprawdzenia, czy wartość za operatorem jest większa lub równa względem wartości przed operatorem.
+## 6.Który z poniższych to operator potęgowania?
+> `**`
+## 7.Koniunkcja jako operator logiczny daje w wyniku prawdę (True) wtedy i tylko wtedy gdy: 
+> obie wartości, które nią łączymy są typu prawda (True).
+## 8.Która z poniższych odpowiedzi będzie wynikiem wykonania instrukcji przedstawionej na obrazku? 
+`True`
+## 9.Która z poniższych odpowiedzi będzie wynikiem wykonania bloku instrukcji przedstawionego na obrazku? 
+`True`
+      
+</details>
 </ul>
 </details>
 <details>
