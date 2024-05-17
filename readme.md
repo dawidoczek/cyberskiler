@@ -891,6 +891,7 @@ if __name__ == '__main__':
 </details>
 <details>
 <summary>11. Test sprawdzający:</summary>
+      
 ## Jakiego typu będzie zmienna "wynik_metody" po wykonaniu bloku instrukcji z załączonego obrazka?
 > None
 ## Co zostanie wyświetlone na ekranie po wykonaniu operacji przedstawionej na obrazku?
