@@ -1061,12 +1061,10 @@ if __name__ == "__main__":
 </details>
 </ul>
 </details>
-
-<ul>
 <details>
 <summary>Klasy i obiekty</summary>
-
 <ul>
+
 <details>
 <summary>1. MojaKlasa:</summary>
 
@@ -1809,6 +1807,7 @@ if __name__ == "__main__":
 <details>
     <summary>Listy</summary>
 <ul>
+
 <details>
 
 
