@@ -2011,20 +2011,18 @@ class Shape:
     def calculate_area(self):
         pass
 
+
 class Circle(Shape):
     def __init__(self, color, radius):
         super().__init__(color)
         self.radius = radius
         self.calculate_area()
-
     def calculate_area(self):
         self.area = round(3.14 * self.radius ** 2, 2)
-
     def display_info(self):
         print("Color:", self.color)
         print("Radius:", self.radius)
         print("Area:", self.area)
-
 if __name__ == "__main__":
     circle = Circle("blue", 5)
     circle.display_info()
@@ -2055,6 +2053,25 @@ class ComplexNumber:
         real_product = self.real * other.real - self.imag * other.imag
         imag_product = self.real * other.imag + self.imag * other.real
         return ComplexNumber(real_product, imag_product)
+
+    def __lt__(self, other):
+        return math.sqrt(self.real ** 2 + self.imag ** 2) < math.sqrt(other.real ** 2 + other.imag ** 2)
+
+    def __gt__(self, other):
+        return math.sqrt(self.real ** 2 + self.imag ** 2) > math.sqrt(other.real ** 2 + other.imag ** 2)
+
+    def __eq__(self, other):
+        return self.real == other.real and self.imag == other.imag
+
+    def __str__(self):
+        return f"{self.real}{'+' if self.imag >= 0 else ''}{self.imag}i"
+if __name__ == "__main__":
+    num1 = ComplexNumber(int(input()), int(input()))
+    num2 = ComplexNumber(int(input()), int(input()))
+    print(num1 + num2)
+    print(num1 - num2)
+    print(num1 * num2)
+    print(num1 < num2)
 ```
 </details>
 <details>
@@ -2081,6 +2098,50 @@ class Book:
 
     def __str__(self):
         return f"{self.book_id} {self.isbn} {self.title} {self.author}"
+
+
+class Library:
+    def __init__(self):
+        self.current_id = 0
+        self.books = []
+
+    def add(self, isbn, title, author):
+        book = Book(self.current_id, isbn, title, author)
+        self.books.append(book)
+        self.current_id += 1
+
+    def modify(self, id, isbn, title, author):
+        for book in self.books:
+            if book.get_id() == id:
+                book.modify(isbn, title, author)
+                break
+
+    def delete(self, id):
+        self.books = [book for book in self.books if book.get_id() != id]
+
+    def find(self, pattern):
+        found_books = [book for book in self.books if book.check(pattern)]
+        for book in found_books:
+            print(book)
+
+# Test
+if __name__ == '__main__':
+    library = Library()
+
+    library.add("83-7316-152-X", "TheOldManandTheSea", "Hemingway")
+    library.add("978-83-800-8211-3", "HarryPotterAndThePhilosophersStone", "Rowling")
+
+    library.find("Rowling")
+    library.find("Hemingway")
+
+    library.modify(1, "978-83-800-8211-3", "HarryPotterAndThePhilosophersStone", "Rowling")
+    library.delete(0)
+
+    library.find("Rowling")
+    library.find("Hemingway")
+
+    print(isinstance(library.books[0], Book)) # True
+
 ```
 </details>
 <details>
@@ -2109,10 +2170,30 @@ class BankAccountWithLimit(BankAccount):
         self.limit = limit
 
     def withdraw(self, amount):
-        if amount > self.limit:
-            print("Withdrawal amount exceeds the limit")
+        if self.balance - amount < self.limit:
+            print("Insufficient funds")
         else:
             super().withdraw(amount)
+
+
+if __name__ == '__main__':
+    limit = int(input())
+    account = BankAccountWithLimit(limit)
+
+    d1 = int(input())
+    d2 = int(input())
+    account.deposit(d1)
+    account.deposit(d2)
+
+    w1 = int(input())
+    w2 = int(input())
+    w3 = int(input())
+    account.withdraw(w1)
+    account.withdraw(w2)
+    account.withdraw(w3)
+
+    print(account.showBalance())
+    print(isinstance(account, BankAccount))
 ```
 </details>
 </ul>
@@ -2257,6 +2338,10 @@ if __name__ == "__main__":
         line = input().strip()
         modified_line = capitalize_first_letter(line)
         lines.append(modified_line)
+
+    for line in reversed(lines):
+        print(line)
+
 ```
 </details>
 <details>
