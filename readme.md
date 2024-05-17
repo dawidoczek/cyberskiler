@@ -1336,6 +1336,8 @@ if __name__ == '__main__':
 
     print(account.showBalance())
 ```
+
+</details>
 <details>
 <summary>11. Test sprawdzający</summary>
 
@@ -1355,7 +1357,6 @@ if __name__ == '__main__':
 > konstruktora
 
 
-</details>
 </details>
 </ul>
 </details>
