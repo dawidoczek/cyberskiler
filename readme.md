@@ -1,9 +1,9 @@
 ```
-      \    /\
-       )  ( ')
-      (  /  )
-       \(__)|
-       
+    \    /\
+    )  ( ')
+    (  /  )
+    \(__)|
+    
 By
 Dawid Rej
 ```
@@ -300,7 +300,7 @@ print("Liczba " + str(number) + " jest " + ("parzysta." if number % 2 == 0 else 
 `True`
 ## 9.Która z poniższych odpowiedzi będzie wynikiem wykonania bloku instrukcji przedstawionego na obrazku? 
 `True`
-      
+    
 </details>
 </ul>
 </details>
@@ -370,7 +370,7 @@ print(a == b)
 </details>
 <details>
 <summary>7. Test sprawdzający</summary>
-      
+    
 ## 1.Która z poniższych metod modułu random służy do generowania liczb całkowitych? 
 > `randrange`
 ## 2.Jakiego typu zmienną wczytujemy wykonując instrukcję pokazaną na obrazku? 
@@ -467,7 +467,7 @@ else:
 </details>
 <details>
 <summary>7. Test sprawdzający:</summary>
-      
+    
 ## 1.Jaki będzie wynik wywołania bloku instrukcji załączonego na obrazku?
 > `Else`
 ## 2.W celu zapisania do zmiennej napisowej s wyniku wywołania na niej metody capitalize() należy skorzystać z instrukcji:
@@ -693,7 +693,7 @@ for bit in reversed(binary_digits):
 </details>
 <details>
 <summary>19. Test sprawdzający:</summary>
-      
+    
 ## 1.Oceń prawdziwość zdania: Pętla for pozwala na określenie liczby powtórzeń.
 > Prawda
 ## 2.Które z poniższych słów kluczowych pozwala na przerwanie pętli?
@@ -891,7 +891,7 @@ if __name__ == '__main__':
 </details>
 <details>
 <summary>11. Test sprawdzający:</summary>
-      
+    
 ## Jakiego typu będzie zmienna "wynik_metody" po wykonaniu bloku instrukcji z załączonego obrazka?
 > None
 ## Co zostanie wyświetlone na ekranie po wykonaniu operacji przedstawionej na obrazku?
@@ -926,9 +926,9 @@ print(average)
 </details>
 
 <details>
-      
+    
 <summary>Usuwanie elemtnów z listy</summary>
-      
+    
 ```python    
 # Usuwanie elementów z listy:
 N = int(input())
@@ -939,7 +939,7 @@ while extra_number in numbers:
     numbers.remove(extra_number)
 print(len(numbers))
 print(numbers)
-      
+    
 ```
 
 </details>
@@ -1062,7 +1062,7 @@ if __name__ == "__main__":
 </ul>
 </details>
 
-
+<ul>
 <details>
 <summary>Klasy i obiekty</summary>
 
@@ -1506,7 +1506,7 @@ if __name__ == "__main__":
 </details>
 <details>
 <summary>7.Test sprawdzający</summary>
-      
+    
 ## Oceń prawdziwość zdania. Zbiór (set) pozwala na zmianę wartości jego elementów.
 > Fałsz
 ## Oceń prawdziwość zdania. Lista pozwala na przechowywanie elementów o dowolnym typie.
@@ -1641,7 +1641,7 @@ print(encrypted_text)
 
 <details>
 <summary>7. Test sprawdzający</summary>
-      
+    
 ## Która z poniższych odpowiedzi przedstawia operację wczytania wszystkich wierszy z wejścia, zapisywanych do listy? 
 > sys.stdin.readlines()
 ## Oceń prawdziwość zdania. Metoda islower() służy do zamiany napisu na napis skaładający się tylko i wyłącznie z małych liter.
@@ -1670,9 +1670,10 @@ print(encrypted_text)
 <details>
 
 <details>
+<ol>
 
-<summary>Definiowanie funkcji</summary>    
-
+<summary>Definiowanie funkcji</summary>  
+<uL>
 <details>
 <summary>1. Pożegnanie:</summary>
 
@@ -1803,9 +1804,11 @@ if __name__ == "__main__":
     print(result)
 ```
 </details>
+</ul>
 </details>
 <details>
     <summary>Listy</summary>
+<ul>
 <details>
 
 
@@ -1877,6 +1880,7 @@ if __name__ == "__main__":
         print(*i)
 ```
 </details>
+</ul>
 </details>
 <details>
     <summary>Klasy i obiekty</summary>
@@ -2111,10 +2115,12 @@ class BankAccountWithLimit(BankAccount):
             super().withdraw(amount)
 ```
 </details>
+</ul>
 </details>
 <details>
     <summary>Kolekcje</summary>
 <details>
+<ul>
 <summary>1. Słownik alfabetyczny:</summary>
 
 ```python
@@ -2201,10 +2207,12 @@ if __name__ == "__main__":
             print(num, prime)
 ```
 </details>
+</ul>
 </details>
 
 <details>
     <summary>Operacje Tekstowe:</summary>
+    <ul>
 <details>
 <summary>1. Samogłoski:</summary>
 
@@ -2267,8 +2275,9 @@ if __name__ == "__main__":
         print(fragment)
 ```
 </details>
+</ul>
 </details>
 
 </details>
-
+</ol>
 </details>
