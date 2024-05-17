@@ -1883,6 +1883,7 @@ if __name__ == "__main__":
 </details>
 <details>
     <summary>Klasy i obiekty</summary>
+    <ul>
 <details>
 <summary>1. Klasa Townspeople:</summary>
 
