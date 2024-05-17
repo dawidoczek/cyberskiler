@@ -1336,6 +1336,26 @@ if __name__ == '__main__':
 
     print(account.showBalance())
 ```
+<details>
+<summary>11. Test sprawdzający</summary>
+
+## Z poniższych odpowiedzi wybierz poprawną, która uzupełnia zdanie: Każdy obiekt tworzony na podstawie klasy to jej ... .
+> instancja
+## Podczas deklarowania metody w klasie zazwyczaj pierwszym argumentem tej metody jest? 
+> self
+## Z poniższych odpowiedzi wybierz definicję klasy. 
+> Klasa jest szablonem na podstawie którego tworzone są obiekty.
+## Odpowiednikiem funkcji dla klas/obiektów jest:
+> metoda
+## W jaki sposób oznaczamy klasę bazową? 
+> Podajemy jej nazwę w nawiasie w nagłówku klasy potomnej.
+## Oceń prawdziwość zdania: Klasa bazowa to klasa, która odziedziczyła atrybuty i metody z klasy potomnej. 
+> Fałsz
+## Metoda __init__ w klasie pełni rolę: 
+> konstruktora
+
+
+</details>
 </details>
 </ul>
 </details>
