@@ -1548,6 +1548,29 @@ for char in text:
 print(encrypted_text)
 ```
 </details>
+
+<details>
+<summary>7. Test sprawdzający</summary>
+      
+## Która z poniższych odpowiedzi przedstawia operację wczytania wszystkich wierszy z wejścia, zapisywanych do listy? 
+> sys.stdin.readlines()
+## Oceń prawdziwość zdania. Metoda islower() służy do zamiany napisu na napis skaładający się tylko i wyłącznie z małych liter.
+> Fałsz
+## Który z poniższych odpowiedzi posłuży do dopasowania dowolnego ciągu znaków w wyrażeniach regularnych?
+> Fałsz
+## Która z poniższych funkcji modułu re służy do zwrócenia obiektu reprezentującego wyrażenie regularne? 
+> re.compile()
+## Oceń prawdziwość zdania. Moduł re zawiera funkcje obsługujące wyrażenia regularne
+> Prawda
+## Który z poniższych znaków służy do dopasowania wyrażenia zaczynającego się od wskazanej po znaku litery? 
+> "^"
+## Która z poniższych metod klasy str służy do usuwania wszelkich białych znaków? 
+> replace()
+## Która z poniższych metod służy do stworzenia napisu, który składa się tylko i wyłącznie z wielkich liter?
+> upper()
+## Oceń prawdziwość zdania. Metoda isspace() zwraca wartość True, jeżeli wszystkie znaki napisu są znakami białymi.
+> Prawda
+
 </ul>
 </details>
 
