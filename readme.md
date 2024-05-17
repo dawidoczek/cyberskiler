@@ -1668,9 +1668,8 @@ print(encrypted_text)
 </details>
 
 <details>
-
-<details>
 <ol>
+<details>
 
 <summary>Definiowanie funkcji</summary>  
 <uL>
@@ -2119,8 +2118,9 @@ class BankAccountWithLimit(BankAccount):
 </details>
 <details>
     <summary>Kolekcje</summary>
+    <ul>
+
 <details>
-<ul>
 <summary>1. Słownik alfabetyczny:</summary>
 
 ```python
