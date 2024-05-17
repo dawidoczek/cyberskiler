@@ -1666,548 +1666,553 @@ print(encrypted_text)
 
 </ol>
 </details>
-<details>
-    <summary>0. Pożegnanie:</summary>
-    ```python
-    # Define your function here
-    def goodbye(imie):
-        print(f"Goodbye, {imie}! It was nice to see you.")
 
-    if __name__ == "__main__":
-        goodbye(input())
-    ```
-</details>
 <details>
-    <summary>1. Pierwiastek kwadratowy:</summary>
-    ```python
-    import math
+<summary>0. Pożegnanie:</summary>
+```python
+# Define your function here
+def goodbye(imie):
+    print(f"Goodbye, {imie}! It was nice to see you.")
 
-    def square_root(n):
-        if n == "0":
-            print(1)
-        print(round(math.sqrt(2), int(n)))
+if __name__ == "__main__":
+    goodbye(input())
+```
+</details>
 
-    if __name__ == "__main__":
-        square_root(input())
-    ```
-</details>
 <details>
-    <summary>2. Wyprzedaż:</summary>
-    ```python
-    def discount(price, percent):
-        discounted_price = price * (1 - percent / 100)
-        return round(discounted_price, 2)
+<summary>1. Pierwiastek kwadratowy:</summary>
+```python
+import math
 
-    if __name__ == "__main__":
-        price = float(input())
-        percent = int(input())
-        result = discount(price, percent)
-        print(result)
-    ```
-</details>
-<details>
-    <summary>3. Ułamki zwykłe:</summary>
-    ```python
-    def fraction_decimal(n, k):
-        result = n / k
-        return round(result, 2)
+def square_root(n):
+    if n == "0":
+        print(1)
+    print(round(math.sqrt(2), int(n)))
 
-    if __name__ == "__main__":
-        n = int(input())
-        k = int(input())
-        result = fraction_decimal(n, k)
-        print(result)
-    ```
+if __name__ == "__main__":
+    square_root(input())
+```
 </details>
-<details>
-    <summary>4. Ułamki zwykłe II:</summary>
-    ```python
-    def fraction_decimal(n, k):
-        result = n / k
-        return round(result, 2)
 
-    def add_fractions(n1, k1, n2, k2):
-        numerator = n1 * k2 + n2 * k1
-        denominator = k1 * k2
-        return fraction_decimal(numerator, denominator)
+<details>
+<summary>2. Wyprzedaż:</summary>
+```python
+def discount(price, percent):
+    discounted_price = price * (1 - percent / 100)
+    return round(discounted_price, 2)
 
-    if __name__ == "__main__":
-        n1 = int(input())
-        k1 = int(input())
-        n2 = int(input())
-        k2 = int(input())
-        result = add_fractions(n1, k1, n2, k2)
-        print(result)
-    ```
+if __name__ == "__main__":
+    price = float(input())
+    percent = int(input())
+    result = discount(price, percent)
+    print(result)
+```
 </details>
-<details>
-    <summary>5. Obwód wielokąta:</summary>
-    ```python
-    # Define your function here
-    def polygon_perimeter(sides_lengths):
-        perimeter = sum(sides_lengths)
-        return perimeter
 
-    if __name__ == "__main__":
-        perimeter = polygon_perimeter([3, 4, 5, 6])
-        print(perimeter)
-    ```
-</details>
 <details>
-    <summary>6. Dni tygodnia:</summary>
-    ```python
-    def day_of_week(day_name, n):
-        days_of_week = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
-        day_index = days_of_week.index(day_name.capitalize())
-        future_day_index = (day_index + n) % 7
-        return days_of_week[future_day_index]
+<summary>3. Ułamki zwykłe:</summary>
+```python
+def fraction_decimal(n, k):
+    result = n / k
+    return round(result, 2)
 
-    if __name__ == "__main__":
-        day_name = input().capitalize()
-        n = int(input())
-        result = day_of_week(day_name, n)
-        print(result)
-    ```
-</details>
-<details>
-    <summary>7. NWD:</summary>
-    ```python
-    def gcd(a, b):
-        if b == 0:
-            return a
-        else:
-            return gcd(b, a % b)
-
-    if __name__ == "__main__":
-        a = int(input())
-        b = int(input())
-        result = gcd(a, b)
-        print(result)
-    ```
-</details>
-<details>
-    <summary>0. Suma z tablicy:</summary>
-    ```python
-    '''Define numbers list here'''
-    numbers = (3, 7, 11, 15, 19, 23)
-    if __name__ == "__main__":
-        suma = sum(numbers)
-        print(suma)
-    ```
-</details>
-<details>
-    <summary>1. Usuwanie elementów:</summary>
-    ```python
-    if __name__ == "__main__":
-        '''Insert your code here'''
-        a = input()
-        b = input()
-        c = input()
-        d = list(a + b)
-        print(d)
-        print(len([i for i in d if i != c]))
-        print([i for i in d if i != c])
-    ```
-</details>
-<details>
-    <summary>2. Dwie listy:</summary>
-    ```python
-    '''Define and build your lists here'''
+if __name__ == "__main__":
     n = int(input())
-    positive = []
-    negative = []
-    for i in range(n):
-        if (a := int(input())) < 0:
-            negative.append(a)
-        else:
-            positive.append(a)
-
-    if __name__ == "__main__":
-        '''Print your lists here'''
-        print(positive)
-        print(negative)
-    ```
+    k = int(input())
+    result = fraction_decimal(n, k)
+    print(result)
+```
 </details>
 <details>
-    <summary>3. Macierz:</summary>
-    ```python
-    '''Define and fill in the matrix variable here'''
+<summary>4. Ułamki zwykłe II:</summary>
+```python
+def fraction_decimal(n, k):
+    result = n / k
+    return round(result, 2)
+
+def add_fractions(n1, k1, n2, k2):
+    numerator = n1 * k2 + n2 * k1
+    denominator = k1 * k2
+    return fraction_decimal(numerator, denominator)
+
+if __name__ == "__main__":
+    n1 = int(input())
+    k1 = int(input())
+    n2 = int(input())
+    k2 = int(input())
+    result = add_fractions(n1, k1, n2, k2)
+    print(result)
+```
+</details>
+<details>
+<summary>5. Obwód wielokąta:</summary>
+```python
+# Define your function here
+def polygon_perimeter(sides_lengths):
+    perimeter = sum(sides_lengths)
+    return perimeter
+
+if __name__ == "__main__":
+    perimeter = polygon_perimeter([3, 4, 5, 6])
+    print(perimeter)
+```
+</details>
+<details>
+<summary>6. Dni tygodnia:</summary>
+```python
+def day_of_week(day_name, n):
+    days_of_week = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
+    day_index = days_of_week.index(day_name.capitalize())
+    future_day_index = (day_index + n) % 7
+    return days_of_week[future_day_index]
+
+if __name__ == "__main__":
+    day_name = input().capitalize()
+    n = int(input())
+    result = day_of_week(day_name, n)
+    print(result)
+```
+</details>
+<details>
+<summary>7. NWD:</summary>
+```python
+def gcd(a, b):
+    if b == 0:
+        return a
+    else:
+        return gcd(b, a % b)
+
+if __name__ == "__main__":
     a = int(input())
     b = int(input())
-    matrix = [[0] * a for _ in range(a)]
-    # print(matrix)
-    for i in range(a):
-        for j in range(a):
-            matrix[i][j] = b
-            b += 1
-
-    if __name__ == "__main__":
-        '''Print elements of the matrix here'''
-        for i in matrix:
-            print(*i)
-    ```
+    result = gcd(a, b)
+    print(result)
+```
 </details>
 <details>
-    <summary>0. Klasa Townspeople:</summary>
-    ```python
-    class Townspeople:
-        def __init__(self, name, age):
-            self.name = name
-            self.age = age
-
-        def greet(self):
-            print(f"Hi, my name is {self.name} and I am {self.age} years old.")
-
-    if __name__ == "__main__":
-        person = Townspeople("John", 30)
-        person.greet()
-    ```
+<summary>0. Suma z tablicy:</summary>
+```python
+'''Define numbers list here'''
+numbers = (3, 7, 11, 15, 19, 23)
+if __name__ == "__main__":
+    suma = sum(numbers)
+    print(suma)
+```
 </details>
 <details>
-    <summary>1. Klasa Car:</summary>
-    ```python
-    class Car:
-        def __init__(self, brand, model, year):
-            self.brand = brand
-            self.model = model
-            self.year = year
-
-        def description(self):
-            print(f"This car is a {self.brand} {self.model} from {self.year}.")
-
-    if __name__ == "__main__":
-        brand = input()
-        model = input()
-        year = int(input())
-        car = Car(brand, model, year)
-        car.description()
-    ```
+<summary>1. Usuwanie elementów:</summary>
+```python
+if __name__ == "__main__":
+    '''Insert your code here'''
+    a = input()
+    b = input()
+    c = input()
+    d = list(a + b)
+    print(d)
+    print(len([i for i in d if i != c]))
+    print([i for i in d if i != c])
+```
 </details>
 <details>
-    <summary>2. Klasa Rectangle:</summary>
-    ```python
-    class Rectangle:
-        def __init__(self, width, height):
-            self.width = width
-            self.height = height
+<summary>2. Dwie listy:</summary>
+```python
+'''Define and build your lists here'''
+n = int(input())
+positive = []
+negative = []
+for i in range(n):
+    if (a := int(input())) < 0:
+        negative.append(a)
+    else:
+        positive.append(a)
 
-        def calculate_area(self):
-            return self.width * self.height
-
-        def calculate_perimeter(self):
-            return 2 * (self.width + self.height)
-
-    if __name__ == "__main__":
-        rectangle = Rectangle(5, 10)
-        print("Area:", rectangle.calculate_area())
-        print("Perimeter:", rectangle.calculate_perimeter())
-    ```
+if __name__ == "__main__":
+    '''Print your lists here'''
+    print(positive)
+    print(negative)
+```
 </details>
 <details>
-    <summary>3. Klasa Product:</summary>
-    ```python
-    class Product:
-        def __init__(self, name, price, quantity):
-            self.name = name
-            self.price = price
-            self.quantity = quantity
+<summary>3. Macierz:</summary>
+```python
+'''Define and fill in the matrix variable here'''
+a = int(input())
+b = int(input())
+matrix = [[0] * a for _ in range(a)]
+# print(matrix)
+for i in range(a):
+    for j in range(a):
+        matrix[i][j] = b
+        b += 1
 
-        def display_info(self):
-            print("Product:", self.name)
-            print("Price:", self.price)
-            print("Quantity:", self.quantity)
-
-        def add_stock(self, amount):
-            self.quantity += amount
-
-    if __name__ == "__main__":
-        product = Product("Chocolate", 2.99, 100)
-        product.add_stock(50)
-        product.display_info()
-    ```
+if __name__ == "__main__":
+    '''Print elements of the matrix here'''
+    for i in matrix:
+        print(*i)
+```
 </details>
 <details>
-    <summary>4. Klasa Vehicle:</summary>
-    ```python
-    class Vehicle:
-        def __init__(self, brand, model, year, engine):
-            self.brand = brand
-            self.model = model
-            self.year = year
-            self.engine = engine
+<summary>0. Klasa Townspeople:</summary>
+```python
+class Townspeople:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
 
-        def display_info(self):
-            print("Brand:", self.brand)
-            print("Model:", self.model)
-            print("Year:", self.year)
-            print("Engine:", self.engine)
+    def greet(self):
+        print(f"Hi, my name is {self.name} and I am {self.age} years old.")
 
-    class Car(Vehicle):
-        def __init__(self, brand, model, year, engine, num_doors):
-            super().__init__(brand, model, year, engine)
-            self.num_doors = num_doors
-
-        def display_info(self):
-            super().display_info()
-            print("Number of doors:", self.num_doors)
-
-    if __name__ == "__main__":
-        car = Car("Ford", "Mustang", 2020, "V8", 2)
-        car.display_info()
-    ```
+if __name__ == "__main__":
+    person = Townspeople("John", 30)
+    person.greet()
+```
 </details>
 <details>
-    <summary>5. Klasa Shape:</summary>
-    ```python
-    class Shape:
-        def __init__(self, color):
-            self.color = color
-            self.area = None
+<summary>1. Klasa Car:</summary>
+```python
+class Car:
+    def __init__(self, brand, model, year):
+        self.brand = brand
+        self.model = model
+        self.year = year
 
-        def calculate_area(self):
-            pass
+    def description(self):
+        print(f"This car is a {self.brand} {self.model} from {self.year}.")
 
-    class Circle(Shape):
-        def __init__(self, color, radius):
-            super().__init__(color)
-            self.radius = radius
-            self.calculate_area()
-
-        def calculate_area(self):
-            self.area = round(3.14 * self.radius ** 2, 2)
-
-        def display_info(self):
-            print("Color:", self.color)
-            print("Radius:", self.radius)
-            print("Area:", self.area)
-
-    if __name__ == "__main__":
-        circle = Circle("blue", 5)
-        circle.display_info()
-    ```
+if __name__ == "__main__":
+    brand = input()
+    model = input()
+    year = int(input())
+    car = Car(brand, model, year)
+    car.description()
+```
 </details>
 <details>
-    <summary>6. Klasa dla liczby zespolonej:</summary>
-    ```python
-    import math
+<summary>2. Klasa Rectangle:</summary>
+```python
+class Rectangle:
+    def __init__(self, width, height):
+        self.width = width
+        self.height = height
 
-    class ComplexNumber:
-        def __init__(self, real, imag):
-            self.real = real
-            self.imag = imag
+    def calculate_area(self):
+        return self.width * self.height
 
-        def __add__(self, other):
-            real_sum = self.real + other.real
-            imag_sum = self.imag + other.imag
-            return ComplexNumber(real_sum, imag_sum)
+    def calculate_perimeter(self):
+        return 2 * (self.width + self.height)
 
-        def __sub__(self, other):
-            real_diff = self.real - other.real
-            imag_diff = self.imag - other.imag
-            return ComplexNumber(real_diff, imag_diff)
-
-        def __mul__(self, other):
-            real_product = self.real * other.real - self.imag * other.imag
-            imag_product = self.real * other.imag + self.imag * other.real
-            return ComplexNumber(real_product, imag_product)
-    ```
+if __name__ == "__main__":
+    rectangle = Rectangle(5, 10)
+    print("Area:", rectangle.calculate_area())
+    print("Perimeter:", rectangle.calculate_perimeter())
+```
 </details>
 <details>
-    <summary>7. Baza danych książek:</summary>
-    ```python
-    class Book:
-        def __init__(self, book_id, isbn, title, author):
-            self.book_id = book_id
-            self.isbn = isbn
-            self.title = title
-            self.author = author
+<summary>3. Klasa Product:</summary>
+```python
+class Product:
+    def __init__(self, name, price, quantity):
+        self.name = name
+        self.price = price
+        self.quantity = quantity
 
-        def check(self, pattern):
-            return pattern in [self.isbn, self.title, self.author]
+    def display_info(self):
+        print("Product:", self.name)
+        print("Price:", self.price)
+        print("Quantity:", self.quantity)
 
-        def modify(self, isbn, title, author):
-            self.isbn = isbn
-            self.title = title
-            self.author = author
+    def add_stock(self, amount):
+        self.quantity += amount
 
-        def get_id(self):
-            return self.book_id
-
-        def __str__(self):
-            return f"{self.book_id} {self.isbn} {self.title} {self.author}"
-    ```
+if __name__ == "__main__":
+    product = Product("Chocolate", 2.99, 100)
+    product.add_stock(50)
+    product.display_info()
+```
 </details>
 <details>
-    <summary>8. Bankowość internetowa z limitem:</summary>
-    ```python
-    class BankAccount:
-        def __init__(self):
-            self.balance = 0
+<summary>4. Klasa Vehicle:</summary>
+```python
+class Vehicle:
+    def __init__(self, brand, model, year, engine):
+        self.brand = brand
+        self.model = model
+        self.year = year
+        self.engine = engine
 
-        def deposit(self, amount):
-            self.balance += amount
+    def display_info(self):
+        print("Brand:", self.brand)
+        print("Model:", self.model)
+        print("Year:", self.year)
+        print("Engine:", self.engine)
 
-        def withdraw(self, amount):
-            if self.balance < amount:
-                print("Insufficient funds")
-            else:
-                self.balance -= amount
+class Car(Vehicle):
+    def __init__(self, brand, model, year, engine, num_doors):
+        super().__init__(brand, model, year, engine)
+        self.num_doors = num_doors
 
-        def showBalance(self):
-            return self.balance
+    def display_info(self):
+        super().display_info()
+        print("Number of doors:", self.num_doors)
 
-    class BankAccountWithLimit(BankAccount):
-        def __init__(self, limit):
-            super().__init__()
-            self.limit = limit
-
-        def withdraw(self, amount):
-            if amount > self.limit:
-                print("Withdrawal amount exceeds the limit")
-            else:
-                super().withdraw(amount)
-    ```
+if __name__ == "__main__":
+    car = Car("Ford", "Mustang", 2020, "V8", 2)
+    car.display_info()
+```
 </details>
 <details>
-    <summary>0. Słownik alfabetyczny:</summary>
-    ```python
-    # Write your code here
-    n = int(input())
-    a = {}
-    i = 97
-    j = 1
-    for x in range(n):
-        if i > 122:
-            a[j] = j
+<summary>5. Klasa Shape:</summary>
+```python
+class Shape:
+    def __init__(self, color):
+        self.color = color
+        self.area = None
+
+    def calculate_area(self):
+        pass
+
+class Circle(Shape):
+    def __init__(self, color, radius):
+        super().__init__(color)
+        self.radius = radius
+        self.calculate_area()
+
+    def calculate_area(self):
+        self.area = round(3.14 * self.radius ** 2, 2)
+
+    def display_info(self):
+        print("Color:", self.color)
+        print("Radius:", self.radius)
+        print("Area:", self.area)
+
+if __name__ == "__main__":
+    circle = Circle("blue", 5)
+    circle.display_info()
+```
+</details>
+<details>
+<summary>6. Klasa dla liczby zespolonej:</summary>
+```python
+import math
+
+class ComplexNumber:
+    def __init__(self, real, imag):
+        self.real = real
+        self.imag = imag
+
+    def __add__(self, other):
+        real_sum = self.real + other.real
+        imag_sum = self.imag + other.imag
+        return ComplexNumber(real_sum, imag_sum)
+
+    def __sub__(self, other):
+        real_diff = self.real - other.real
+        imag_diff = self.imag - other.imag
+        return ComplexNumber(real_diff, imag_diff)
+
+    def __mul__(self, other):
+        real_product = self.real * other.real - self.imag * other.imag
+        imag_product = self.real * other.imag + self.imag * other.real
+        return ComplexNumber(real_product, imag_product)
+```
+</details>
+<details>
+<summary>7. Baza danych książek:</summary>
+```python
+class Book:
+    def __init__(self, book_id, isbn, title, author):
+        self.book_id = book_id
+        self.isbn = isbn
+        self.title = title
+        self.author = author
+
+    def check(self, pattern):
+        return pattern in [self.isbn, self.title, self.author]
+
+    def modify(self, isbn, title, author):
+        self.isbn = isbn
+        self.title = title
+        self.author = author
+
+    def get_id(self):
+        return self.book_id
+
+    def __str__(self):
+        return f"{self.book_id} {self.isbn} {self.title} {self.author}"
+```
+</details>
+<details>
+<summary>8. Bankowość internetowa z limitem:</summary>
+```python
+class BankAccount:
+    def __init__(self):
+        self.balance = 0
+
+    def deposit(self, amount):
+        self.balance += amount
+
+    def withdraw(self, amount):
+        if self.balance < amount:
+            print("Insufficient funds")
         else:
-            a[chr(i)] = j
-        i += 1
-        j += 1
-    print(a)
-    ```
-</details>
-<details>
-    <summary>1. Funkcja słownikowa:</summary>
-    ```python
-    def remove_dict_entry(slownik, klucz):
-        if klucz in slownik:
-            wartosc = slownik.pop(klucz)
-            return wartosc
+            self.balance -= amount
+
+    def showBalance(self):
+        return self.balance
+
+class BankAccountWithLimit(BankAccount):
+    def __init__(self, limit):
+        super().__init__()
+        self.limit = limit
+
+    def withdraw(self, amount):
+        if amount > self.limit:
+            print("Withdrawal amount exceeds the limit")
         else:
-            return -1
-
-    if __name__ == "__main__":
-        my_dict = {"key1": "value1", "key2": "value2", "key3": "value3"}
-        klucz = input()
-        wynik = remove_dict_entry(my_dict, klucz)
-        if wynik == -1:
-            print("Key doesn't exist")
-        else:
-            print(wynik)
-            print(len(my_dict))
-            print(my_dict)
-    ```
+            super().withdraw(amount)
+```
 </details>
 <details>
-    <summary>2. Odległość dwóch punktów - krotki:</summary>
-    ```python
-    # Implement getting values into variables here
-    import math
-
-    a = int(input())
-    b = int(input())
-    c = int(input())
-    d = int(input())
-    # Create tuples here
-    pointA = (a, b)
-    pointB = (c, d)
-
-    if __name__ == "__main__":
-        '''Insert your code with calculations here'''
-        odl = round(math.sqrt((pointB[0] - pointA[0]) ** 2 + (pointB[1] - pointA[1]) ** 2), 2)
-        print(odl)
-    ```
+<summary>0. Słownik alfabetyczny:</summary>
+```python
+# Write your code here
+n = int(input())
+a = {}
+i = 97
+j = 1
+for x in range(n):
+    if i > 122:
+        a[j] = j
+    else:
+        a[chr(i)] = j
+    i += 1
+    j += 1
+print(a)
+```
 </details>
 <details>
-    <summary>3. Lista krotek:</summary>
-    ```python
-    # Define your function here (if you use function)
-    def is_prime(num):
-        if num <= 1:
+<summary>1. Funkcja słownikowa:</summary>
+```python
+def remove_dict_entry(slownik, klucz):
+    if klucz in slownik:
+        wartosc = slownik.pop(klucz)
+        return wartosc
+    else:
+        return -1
+
+if __name__ == "__main__":
+    my_dict = {"key1": "value1", "key2": "value2", "key3": "value3"}
+    klucz = input()
+    wynik = remove_dict_entry(my_dict, klucz)
+    if wynik == -1:
+        print("Key doesn't exist")
+    else:
+        print(wynik)
+        print(len(my_dict))
+        print(my_dict)
+```
+</details>
+<details>
+<summary>2. Odległość dwóch punktów - krotki:</summary>
+```python
+# Implement getting values into variables here
+import math
+
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
+# Create tuples here
+pointA = (a, b)
+pointB = (c, d)
+
+if __name__ == "__main__":
+    '''Insert your code with calculations here'''
+    odl = round(math.sqrt((pointB[0] - pointA[0]) ** 2 + (pointB[1] - pointA[1]) ** 2), 2)
+    print(odl)
+```
+</details>
+<details>
+<summary>3. Lista krotek:</summary>
+```python
+# Define your function here (if you use function)
+def is_prime(num):
+    if num <= 1:
+        return False
+    for i in range(2, int(num ** 0.5) + 1):
+        if num % i == 0:
             return False
-        for i in range(2, int(num ** 0.5) + 1):
-            if num % i == 0:
-                return False
-        return True
+    return True
 
-    if __name__ == "__main__":
-        numbers = []
-        for _ in range(10):
-            num = int(input().strip())
-            prime = is_prime(num)
-            numbers.append((num, prime))
-        for num, prime in numbers:
-            if not prime:
-                print(num, prime)
-    ```
+if __name__ == "__main__":
+    numbers = []
+    for _ in range(10):
+        num = int(input().strip())
+        prime = is_prime(num)
+        numbers.append((num, prime))
+    for num, prime in numbers:
+        if not prime:
+            print(num, prime)
+```
 </details>
 <details>
-    <summary>0. Samogłoski:</summary>
-    ```python
-    def remove_vowels(text):
-        vowels = "aeiouAEIOU"
-        modified_text = ""
-        for char in text:
-            if char not in vowels:
-                modified_text += char
-        return modified_text
+<summary>0. Samogłoski:</summary>
+```python
+def remove_vowels(text):
+    vowels = "aeiouAEIOU"
+    modified_text = ""
+    for char in text:
+        if char not in vowels:
+            modified_text += char
+    return modified_text
 
-    if __name__ == "__main__":
-        text = input().strip()
-        modified_text = remove_vowels(text)
-        print(modified_text)
-    ```
+if __name__ == "__main__":
+    text = input().strip()
+    modified_text = remove_vowels(text)
+    print(modified_text)
+```
 </details>
 <details>
-    <summary>1. Poprawne zdania:</summary>
-    ```python
-    def capitalize_first_letter(line):
-        words = line.split()
-        modified_line = ""
-        for i, word in enumerate(words):
-            if i == 0:
-                modified_line += word.capitalize()
-            else:
-                modified_line += word.lower()
-            if i != len(words) - 1:
-                modified_line += " "
-        if not modified_line.endswith("."):
-            modified_line += "."
-        return modified_line
+<summary>1. Poprawne zdania:</summary>
+```python
+def capitalize_first_letter(line):
+    words = line.split()
+    modified_line = ""
+    for i, word in enumerate(words):
+        if i == 0:
+            modified_line += word.capitalize()
+        else:
+            modified_line += word.lower()
+        if i != len(words) - 1:
+            modified_line += " "
+    if not modified_line.endswith("."):
+        modified_line += "."
+    return modified_line
 
-    if __name__ == "__main__":
-        n = int(input().strip())
-        lines = []
-        for _ in range(n):
-            line = input().strip()
-            modified_line = capitalize_first_letter(line)
-            lines.append(modified_line)
-    ```
+if __name__ == "__main__":
+    n = int(input().strip())
+    lines = []
+    for _ in range(n):
+        line = input().strip()
+        modified_line = capitalize_first_letter(line)
+        lines.append(modified_line)
+```
 </details>
 <details>
-    <summary>2. Podział tekstu:</summary>
-    ```python
-    def split_text(text, n):
-        fragments = [text[i:i + n] for i in range(0, len(text), n)]
-        fragments.sort()
-        return fragments
+<summary>2. Podział tekstu:</summary>
+```python
+def split_text(text, n):
+    fragments = [text[i:i + n] for i in range(0, len(text), n)]
+    fragments.sort()
+    return fragments
 
-    if __name__ == "__main__":
-        text = input().strip()
-        n = int(input().strip())
-        fragments = split_text(text, n)
-        for fragment in fragments:
-            print(fragment)
-    ```
+if __name__ == "__main__":
+    text = input().strip()
+    n = int(input().strip())
+    fragments = split_text(text, n)
+    for fragment in fragments:
+        print(fragment)
+```
 </details>
+
 
