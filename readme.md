@@ -1042,6 +1042,23 @@ if __name__ == "__main__":
     main()
 ```
 </details>
+<details>
+<summary>7. Test sprawdzający</summary>
+
+## Która z poniżej wymienionych metod pozwala na usunięcie elementu z listy? 
+> remove
+## Oceń prawdziwość zdania: Dodając do pustej listy elementy będące listami jednowymiarowymi otrzymamy listę dwuwymiarową. 
+> Prawda
+## Która z poniżej wymienionych metod pozwala na dodanie elementu na koniec listy? 
+> append
+## Która z poniższych odpowiedzi przedstawia sposób zadeklarowania pustej listy o nazwie example_list? 
+> example_list = []
+## Mając listę, która zawiera 5 elementów, pod jakim indeksem znajdzie się pierwszy element listy? 
+> 0
+## Jaki będzie wynik uruchomienia bloku kodu z załączonego obrazka? 
+> `[0, [1, 1], 2, [3, 1]]`
+
+</details>
 </ul>
 </details>
 
