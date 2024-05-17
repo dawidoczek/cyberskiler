@@ -1442,6 +1442,31 @@ if __name__ == "__main__":
         manage_dictionary(dct, operation)
 ```
 </details>
+<details>
+<summary>6. Zarządzanie słownikiem:</summary>
+      
+Oceń prawdziwość zdania. Zbiór (set) pozwala na zmianę wartości jego elementów.
+Fałsz
+Oceń prawdziwość zdania. Lista pozwala na przechowywanie elementów o dowolnym typie.
+Prawda
+Oceń prawdziwość zdania. Krotka (tuple) inicjalizowana jest tylko i wyłącznie za pomocą nawiasów okrągłych. 
+Która z poniższych odpowiedzi jest fałszywa?
+Składnia "for element in list" pozwala na iterowanie przez elementy listy
+Funkcja len() pozwala na sprawdzenie liczby elementów w liście
+Operator + pozwala na konkatenację list
+Oceń prawdziwość zdania. Para klucz i wartość przechowywana w słowniku musi być tego samego typu.
+Fałsz
+Która z poniższych odpowiedzi pozwoli na dodanie elementu do listy?
+list.append(el)
+Oceń prawdziwość zdania. Krotka (tuple) to struktura przechowująca tylko dwie zmienne.
+Fałsz
+Oceń prawdziwość zdania. Lista to uporządkowana kolekcja pozwalająca na przechowywanie określonej liczby elementów.
+Fałsz
+Oceń prawdziwość zdania. Słownik (dictionary) to nieuporządkowany zbiór elementów, dostęp do wartości elementów możliwy jest za pomocą kluczy.
+Prawda
+Oceń prawdziwość zdania. Zbiór (set) to uporządkowany zbiór danych. 
+Fałsz
+</details>
 </ul>
 </details>
 <details>
