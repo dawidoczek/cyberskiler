@@ -904,22 +904,28 @@ numbers = [10, 12, 100, 125, 6]
 average = sum(numbers) / len(numbers)
 print(average)
 
-# Usuwanie elementów z listy:
-N = int(input())
-
-numbers = [int(input()) for _ in range(N)]
-
-print(numbers)
-
-extra_number = int(input())
-
-while extra_number in numbers:
-    numbers.remove(extra_number)
-
-print(len(numbers))
-print(numbers)
 ```
 </details>
+
+<details>
+      
+<summary>Usuwanie elemtnów z listy</summary>
+      
+```python    
+# Usuwanie elementów z listy:
+N = int(input())
+numbers = [int(input()) for _ in range(N)]
+print(numbers)
+extra_number = int(input())
+while extra_number in numbers:
+    numbers.remove(extra_number)
+print(len(numbers))
+print(numbers)
+      
+```
+
+</details>
+
 <details>
 <summary>2. Tabliczka mnożenia:</summary>
 
@@ -1445,27 +1451,30 @@ if __name__ == "__main__":
 <details>
 <summary>6. Zarządzanie słownikiem:</summary>
       
-Oceń prawdziwość zdania. Zbiór (set) pozwala na zmianę wartości jego elementów.
-Fałsz
-Oceń prawdziwość zdania. Lista pozwala na przechowywanie elementów o dowolnym typie.
-Prawda
-Oceń prawdziwość zdania. Krotka (tuple) inicjalizowana jest tylko i wyłącznie za pomocą nawiasów okrągłych. 
-Która z poniższych odpowiedzi jest fałszywa?
-Składnia "for element in list" pozwala na iterowanie przez elementy listy
-Funkcja len() pozwala na sprawdzenie liczby elementów w liście
-Operator + pozwala na konkatenację list
-Oceń prawdziwość zdania. Para klucz i wartość przechowywana w słowniku musi być tego samego typu.
-Fałsz
-Która z poniższych odpowiedzi pozwoli na dodanie elementu do listy?
-list.append(el)
-Oceń prawdziwość zdania. Krotka (tuple) to struktura przechowująca tylko dwie zmienne.
-Fałsz
-Oceń prawdziwość zdania. Lista to uporządkowana kolekcja pozwalająca na przechowywanie określonej liczby elementów.
-Fałsz
-Oceń prawdziwość zdania. Słownik (dictionary) to nieuporządkowany zbiór elementów, dostęp do wartości elementów możliwy jest za pomocą kluczy.
-Prawda
-Oceń prawdziwość zdania. Zbiór (set) to uporządkowany zbiór danych. 
-Fałsz
+## Oceń prawdziwość zdania. Zbiór (set) pozwala na zmianę wartości jego elementów.
+> Fałsz
+## Oceń prawdziwość zdania. Lista pozwala na przechowywanie elementów o dowolnym typie.
+> Prawda
+## Oceń prawdziwość zdania. Krotka (tuple) inicjalizowana jest tylko i wyłącznie za pomocą nawiasów okrągłych. 
+> Która z poniższych odpowiedzi jest fałszywa?
+## Składnia "for element in list" pozwala na iterowanie przez elementy listy
+> Prawda
+## Funkcja len() pozwala na sprawdzenie liczby elementów w liście
+> Prawda
+## Operator + pozwala na konkatenację list
+> Prawda
+## Oceń prawdziwość zdania. Para klucz i wartość przechowywana w słowniku musi być tego samego typu.
+> Fałsz
+## Która z poniższych odpowiedzi pozwoli na dodanie elementu do listy?
+> list.append(el)
+## Oceń prawdziwość zdania. Krotka (tuple) to struktura przechowująca tylko dwie zmienne.
+> Fałsz
+## Oceń prawdziwość zdania. Lista to uporządkowana kolekcja pozwalająca na przechowywanie określonej liczby elementów.
+> Fałsz
+## Oceń prawdziwość zdania. Słownik (dictionary) to nieuporządkowany zbiór elementów, dostęp do wartości elementów możliwy jest za pomocą kluczy.
+> Prawda
+## Oceń prawdziwość zdania. Zbiór (set) to uporządkowany zbiór danych. 
+> Fałsz
 </details>
 </ul>
 </details>
