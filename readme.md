@@ -1449,7 +1449,7 @@ if __name__ == "__main__":
 ```
 </details>
 <details>
-<summary>6. Zarządzanie słownikiem:</summary>
+<summary>7.Test sprawdzający</summary>
       
 ## Oceń prawdziwość zdania. Zbiór (set) pozwala na zmianę wartości jego elementów.
 > Fałsz
