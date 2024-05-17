@@ -1668,6 +1668,7 @@ print(encrypted_text)
 </details>
 
 <details>
+<summary>Zaawansowane struktury w Pythonie - dodatkowa praktyka </summary>
 <ol>
 <details>
 
