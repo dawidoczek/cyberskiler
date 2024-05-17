@@ -1669,7 +1669,9 @@ print(encrypted_text)
 
 <details>
 
+<details>
 <summary>0. Pożegnanie:</summary>
+
 ```python
 # Define your function here
 def goodbye(imie):
@@ -1681,8 +1683,8 @@ if __name__ == "__main__":
 </details>
 
 <details>
-
 <summary>1. Pierwiastek kwadratowy:</summary>
+
 ```python
 import math
 
@@ -1697,8 +1699,8 @@ if __name__ == "__main__":
 </details>
 
 <details>
-
 <summary>2. Wyprzedaż:</summary>
+
 ```python
 def discount(price, percent):
     discounted_price = price * (1 - percent / 100)
@@ -1713,8 +1715,8 @@ if __name__ == "__main__":
 </details>
 
 <details>
-
 <summary>3. Ułamki zwykłe:</summary>
+
 ```python
 def fraction_decimal(n, k):
     result = n / k
@@ -1728,8 +1730,8 @@ if __name__ == "__main__":
 ```
 </details>
 <details>
-
 <summary>4. Ułamki zwykłe II:</summary>
+
 ```python
 def fraction_decimal(n, k):
     result = n / k
@@ -1750,8 +1752,8 @@ if __name__ == "__main__":
 ```
 </details>
 <details>
-
 <summary>5. Obwód wielokąta:</summary>
+
 ```python
 # Define your function here
 def polygon_perimeter(sides_lengths):
@@ -1764,8 +1766,8 @@ if __name__ == "__main__":
 ```
 </details>
 <details>
-
 <summary>6. Dni tygodnia:</summary>
+
 ```python
 def day_of_week(day_name, n):
     days_of_week = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
@@ -1781,8 +1783,8 @@ if __name__ == "__main__":
 ```
 </details>
 <details>
-
 <summary>7. NWD:</summary>
+
 ```python
 def gcd(a, b):
     if b == 0:
@@ -1798,8 +1800,8 @@ if __name__ == "__main__":
 ```
 </details>
 <details>
-
 <summary>0. Suma z tablicy:</summary>
+
 ```python
 '''Define numbers list here'''
 numbers = (3, 7, 11, 15, 19, 23)
@@ -1809,8 +1811,8 @@ if __name__ == "__main__":
 ```
 </details>
 <details>
-
 <summary>1. Usuwanie elementów:</summary>
+
 ```python
 if __name__ == "__main__":
     '''Insert your code here'''
@@ -1824,8 +1826,8 @@ if __name__ == "__main__":
 ```
 </details>
 <details>
-
 <summary>2. Dwie listy:</summary>
+
 ```python
 '''Define and build your lists here'''
 n = int(input())
@@ -1844,8 +1846,8 @@ if __name__ == "__main__":
 ```
 </details>
 <details>
-
 <summary>3. Macierz:</summary>
+
 ```python
 '''Define and fill in the matrix variable here'''
 a = int(input())
@@ -1864,8 +1866,8 @@ if __name__ == "__main__":
 ```
 </details>
 <details>
-
 <summary>0. Klasa Townspeople:</summary>
+
 ```python
 class Townspeople:
     def __init__(self, name, age):
@@ -1881,8 +1883,8 @@ if __name__ == "__main__":
 ```
 </details>
 <details>
-
 <summary>1. Klasa Car:</summary>
+
 ```python
 class Car:
     def __init__(self, brand, model, year):
@@ -1902,8 +1904,8 @@ if __name__ == "__main__":
 ```
 </details>
 <details>
-
 <summary>2. Klasa Rectangle:</summary>
+
 ```python
 class Rectangle:
     def __init__(self, width, height):
@@ -1923,8 +1925,8 @@ if __name__ == "__main__":
 ```
 </details>
 <details>
-
 <summary>3. Klasa Product:</summary>
+
 ```python
 class Product:
     def __init__(self, name, price, quantity):
@@ -1947,8 +1949,8 @@ if __name__ == "__main__":
 ```
 </details>
 <details>
-
 <summary>4. Klasa Vehicle:</summary>
+
 ```python
 class Vehicle:
     def __init__(self, brand, model, year, engine):
@@ -1978,8 +1980,8 @@ if __name__ == "__main__":
 ```
 </details>
 <details>
-
 <summary>5. Klasa Shape:</summary>
+
 ```python
 class Shape:
     def __init__(self, color):
@@ -2009,8 +2011,8 @@ if __name__ == "__main__":
 ```
 </details>
 <details>
-
 <summary>6. Klasa dla liczby zespolonej:</summary>
+
 ```python
 import math
 
@@ -2036,8 +2038,8 @@ class ComplexNumber:
 ```
 </details>
 <details>
-
 <summary>7. Baza danych książek:</summary>
+
 ```python
 class Book:
     def __init__(self, book_id, isbn, title, author):
@@ -2062,8 +2064,8 @@ class Book:
 ```
 </details>
 <details>
-
 <summary>8. Bankowość internetowa z limitem:</summary>
+
 ```python
 class BankAccount:
     def __init__(self):
@@ -2094,8 +2096,8 @@ class BankAccountWithLimit(BankAccount):
 ```
 </details>
 <details>
-
 <summary>0. Słownik alfabetyczny:</summary>
+
 ```python
 # Write your code here
 n = int(input())
@@ -2113,8 +2115,8 @@ print(a)
 ```
 </details>
 <details>
-
 <summary>1. Funkcja słownikowa:</summary>
+
 ```python
 def remove_dict_entry(slownik, klucz):
     if klucz in slownik:
@@ -2136,8 +2138,8 @@ if __name__ == "__main__":
 ```
 </details>
 <details>
-
 <summary>2. Odległość dwóch punktów - krotki:</summary>
+
 ```python
 # Implement getting values into variables here
 import math
@@ -2157,8 +2159,8 @@ if __name__ == "__main__":
 ```
 </details>
 <details>
-
 <summary>3. Lista krotek:</summary>
+
 ```python
 # Define your function here (if you use function)
 def is_prime(num):
@@ -2181,8 +2183,8 @@ if __name__ == "__main__":
 ```
 </details>
 <details>
-
 <summary>0. Samogłoski:</summary>
+
 ```python
 def remove_vowels(text):
     vowels = "aeiouAEIOU"
@@ -2199,8 +2201,8 @@ if __name__ == "__main__":
 ```
 </details>
 <details>
-
 <summary>1. Poprawne zdania:</summary>
+
 ```python
 def capitalize_first_letter(line):
     words = line.split()
@@ -2226,8 +2228,8 @@ if __name__ == "__main__":
 ```
 </details>
 <details>
-
 <summary>2. Podział tekstu:</summary>
+
 ```python
 def split_text(text, n):
     fragments = [text[i:i + n] for i in range(0, len(text), n)]
