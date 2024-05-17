@@ -889,6 +889,23 @@ if __name__ == '__main__':
     print(passing_elements)
 ```
 </details>
+<details>
+<summary>11. Test sprawdzający:</summary>
+## Jakiego typu będzie zmienna "wynik_metody" po wykonaniu bloku instrukcji z załączonego obrazka?
+> None
+## Co zostanie wyświetlone na ekranie po wykonaniu operacji przedstawionej na obrazku?
+> "2+3"
+## Jaki będzie wynik wywołania funkcji załączonej na obrazku? 
+> None
+## W jakim celu posługujemy się słowem kluczowym "def" w języku Python?
+> Służy do zadeklarowania funkcji.
+## Jaki będzie wynik wykonania kodu przedstawionego na rysunku? 
+> 1
+## Ile razy wykona się funkcja przedstawiona na obrazku? 
+> 5
+## Jaki będzie wynik wywołania funkcji załączonej na obrazku? 
+> 24
+</details>
 </ul>
 </details>
 
