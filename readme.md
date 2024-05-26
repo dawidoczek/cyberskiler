@@ -1773,7 +1773,7 @@ if __name__ == "__main__":
 
 ```python
 def day_of_week(day_name, n):
-    days_of_week = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
+    days_of_week = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
     day_index = days_of_week.index(day_name.capitalize())
     future_day_index = (day_index + n) % 7
     return days_of_week[future_day_index]
@@ -1783,6 +1783,7 @@ if __name__ == "__main__":
     n = int(input())
     result = day_of_week(day_name, n)
     print(result)
+
 ```
 </details>
 <details>
